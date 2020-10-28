@@ -1,4 +1,6 @@
 *.pyc
 *__pycache__*
 *node_modules*
-blockchain-env/lib/python3.7
+blockchain-env/lib/python3.9
+/_pycache_
+/.vscode
