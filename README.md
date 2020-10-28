@@ -1,7 +1,23 @@
-**Activate the virtual environment**
+**Create the virtual environment (one time activity if already created)**
+Step 1
+```
+pip install -U pip virtualenv
+```
+Step 2
+```
+virtualenv --system-site-packages -p python ./blockchain-env
+```
+
+**Activate the virtual environment-Linux**
 ```
 source blockchain-env/scripts/activate
 ```
+
+**Activate the virtual environment-Windows 10**
+```
+.\blockchain-env\Scripts\activate
+```
+
 **Install all packages**
 ```
 pip install -r requirements.txt
